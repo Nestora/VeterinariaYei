@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "Busines
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B979C084-8A6C-4C54-8EF0-57E804765B99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeterinariaYeiWeb", "VeterinariaYeiWeb\VeterinariaYeiWeb.csproj", "{05F45C6C-BBF6-472D-BE54-AD53962A7BBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebVeterinaria", "WebVeterinaria\WebVeterinaria.csproj", "{0371C923-5CC1-4659-B236-FF9BDA697FAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{B979C084-8A6C-4C54-8EF0-57E804765B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B979C084-8A6C-4C54-8EF0-57E804765B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B979C084-8A6C-4C54-8EF0-57E804765B99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05F45C6C-BBF6-472D-BE54-AD53962A7BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05F45C6C-BBF6-472D-BE54-AD53962A7BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05F45C6C-BBF6-472D-BE54-AD53962A7BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05F45C6C-BBF6-472D-BE54-AD53962A7BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0371C923-5CC1-4659-B236-FF9BDA697FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0371C923-5CC1-4659-B236-FF9BDA697FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0371C923-5CC1-4659-B236-FF9BDA697FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0371C923-5CC1-4659-B236-FF9BDA697FAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
