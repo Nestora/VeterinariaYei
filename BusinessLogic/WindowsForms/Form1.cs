@@ -16,5 +16,22 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
-    }
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			cmbbox_searchType.SelectedIndex = 0;
+		}
+
+		private void cmbbox_searchType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbbox_searchType.SelectedIndex == 0)
+            {
+                lbl_search_RaceLastName.Text = "Apellido";
+            }
+            else
+            {
+				lbl_search_RaceLastName.Text = "Raza";
+            }
+        }
+	}
 }
