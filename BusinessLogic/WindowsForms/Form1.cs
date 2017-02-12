@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsForms
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class MainForm : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -26,12 +26,17 @@ namespace WindowsForms
         {
             if (cmbbox_searchType.SelectedIndex == 0)
             {
-                lbl_search_RaceLastName.Text = "Apellido";
+
             }
             else
             {
-				lbl_search_RaceLastName.Text = "Raza";
+				
             }
         }
+
+		private void pictureBox1_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
